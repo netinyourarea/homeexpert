@@ -1,0 +1,14 @@
+# SEO-Optimized robots.txt for Connectly
+# Allow search engines full access
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Crawl delay (in seconds)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://connectly.io/sitemap.xml
